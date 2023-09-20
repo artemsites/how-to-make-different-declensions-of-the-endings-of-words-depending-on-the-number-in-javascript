@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let cartCountNum = cartCount.querySelector('.cart-count__num').textContent;
     let cartCountWord = cartCount.querySelector('.cart-count__word');
 
-    cartCountWord.textContent = getDeclOfNum(cartCountNum, ['товар', 'товара', 'товаров'])
+    cartCountWord.textContent = getDeclOfNum(cartCountNum, ['товар', 'товара', 'товаров']);
 
 
 
